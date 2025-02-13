@@ -13,6 +13,27 @@ cd weak-to-strong-preference-optimization
 pip install -e ".[torch,metrics]"
 ```
 
+## Run Training
+
+All experiments were conducted on a 4×H100 setup, each with 80GB of memory.  
+
+### LoRA Training  
+- Training examples can be found in the `weak-to-strong-preference-optimization/examples/train_lora` folder.  
+
+### Full Fine-Tuning  
+To set up the environment, install the required dependencies:  
+```bash
+pip install deepspeed==0.15.4
+pip install transformers==4.45.0
+```  
+- Training examples are available in the `weak-to-strong-preference-optimization/examples/train_full` folder.  
+
+The trained models will be uploaded in the coming days.
+
+## Performance
+
+<img src="./img/performance.png" style="zoom:50%;" />
+
 
 ## Citation
 

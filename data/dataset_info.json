@@ -1,0 +1,22 @@
+{
+  "ultrafeedback": {
+    "hf_hub_url": "llamafactory/ultrafeedback_binarized",
+    "ms_hub_url": "llamafactory/ultrafeedback_binarized",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "hh_rlhf_en": {
+    "script_url": "hh_rlhf_en",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "history": "history"
+    }
+  }
+}
